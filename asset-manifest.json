@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/crypto-blenders/static/css/main.deec3c69.css",
-    "main.js": "/crypto-blenders/static/js/main.a341fb36.js",
+    "main.css": "/crypto-blenders/static/css/main.bb3efad3.css",
+    "main.js": "/crypto-blenders/static/js/main.5b3f8458.js",
     "static/media/slider-bg.jpg": "/crypto-blenders/static/media/slider-bg.38f4705bf3aa19049cbb.jpg",
     "static/media/logo.png": "/crypto-blenders/static/media/logo.dc62ba83cbd4564987f9.png",
     "static/media/image11.png": "/crypto-blenders/static/media/image11.838032eb0fe23ae5c63b.png",
@@ -29,11 +29,11 @@
     "static/media/cartoon-bg.png": "/crypto-blenders/static/media/cartoon-bg.589ecabbc650bca426e0.png",
     "static/media/img1.png": "/crypto-blenders/static/media/img1.3fc46ea15845092bdf4c.png",
     "index.html": "/crypto-blenders/index.html",
-    "main.deec3c69.css.map": "/crypto-blenders/static/css/main.deec3c69.css.map",
-    "main.a341fb36.js.map": "/crypto-blenders/static/js/main.a341fb36.js.map"
+    "main.bb3efad3.css.map": "/crypto-blenders/static/css/main.bb3efad3.css.map",
+    "main.5b3f8458.js.map": "/crypto-blenders/static/js/main.5b3f8458.js.map"
   },
   "entrypoints": [
-    "static/css/main.deec3c69.css",
-    "static/js/main.a341fb36.js"
+    "static/css/main.bb3efad3.css",
+    "static/js/main.5b3f8458.js"
   ]
 }
