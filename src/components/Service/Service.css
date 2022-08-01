@@ -1,0 +1,100 @@
+.service{
+    background-color: #0d182e;
+    padding: 40px 80px 40px 80px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0px auto;
+    text-align: center;
+
+}
+.service_{
+    padding: 10px 50px;
+    margin-top: 50px;
+}
+.headerservice h2{
+    color:#fff;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    position: relative;
+    text-transform:uppercase;
+
+}
+.headerservice h2:after{
+    content: "";
+    display: block;
+    background-color: #39a583;
+    height: 5px;
+    width: 140px;
+    border-radius: 10px;
+    margin: 5px auto 10px auto;
+}
+.card_1{
+    background-color: transparent;
+    height: 260px;
+    width: 300px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    color:#fff;
+    box-shadow: 0px 5px 0px #39a583;
+    border-top: 5px solid #39a583;
+    border-left:1px solid  #39a583;
+    border-right:1px solid  #39a583;
+    transition: all 0.5s ease;
+}
+.card_1:hover{
+    box-shadow: 0px 5px 10px #39a583;
+    border-left:none;
+    border-right:none;
+}
+.card_1 .icon_{
+    font-size : 60px;
+    color: #39a583;
+    margin: 20px auto;
+}
+.card_1 Button a{
+    color: #39a583;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.card_1 Button{
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+.card_1 Button:hover{
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.card_1 Button:hover a{
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+
+/* ====== Responsive ====== */
+
+@media(max-width:490px){
+    .service_{
+        padding: 10px 0px;
+        margin-top: 50px;
+    }
+    .service{
+        padding: 0px 60px 40px 60px;
+    }
+}
+
+@media(max-width:400px){
+    .headerservice h2{
+        color:#fff;
+        font-size: 35px;
+        letter-spacing: 0px;
+        font-weight: 800;
+        margin-bottom: 10px;
+        position: relative;
+    }
+}

@@ -1,0 +1,114 @@
+.contact{
+    padding: 60px;
+    margin: 0px auto;
+    background-color: #0d182e;
+    overflow-x:hidden;
+    text-align: center;
+}
+.contact .headerContact h3{
+    color:#fff;
+    font-size:40px;
+    font-weight:700; 
+    margin-bottom: 40px;
+}
+.contact .headerContact h3:after{
+    content: "";
+    background-color: #39a583;
+    display: block;
+    width:200px;
+    height:5px;
+    border-radius: 10px;
+    margin: 5px auto 10px auto;
+}
+
+.contact .getintouch{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin:50px auto;
+}
+.getintouch .section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 10px;
+    width: 50%;
+    margin-right: 30px;
+}
+
+.getintouch .section1 .img1{
+    width:500px; 
+    position: relative;
+    right: 110px;
+}
+.getintouch .section1 .img2{
+    height: 400px;
+    position: relative;
+    left: 110px;
+    z-index: 10;
+}
+
+.getintouch .section2{
+    background-color: #11213b;
+    text-align: left;
+    padding: 30px;
+    border-radius: 15px;
+}
+.getintouch .section2 h4{
+    color:#fff;
+}
+.getintouch .section2 .item1{
+    display: flex;
+}
+.getintouch .section2 .item1 , 
+.getintouch .section2 .item2 ,
+.getintouch .section2 .item3 
+{
+    margin: 20px auto;
+}
+.getintouch .section2 .item1 input,
+.getintouch .section2 .item2 input,
+.getintouch .section2 .item3 textarea
+{
+    margin: 0px 10px;
+}
+.getintouch .section2 .item1 input{
+    width: 50%;
+    background-color: transparent;
+    padding:10px 20px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    color: #fff;
+}
+.getintouch .section2 .item2 input{
+    width: 95%;
+    background-color: transparent;
+    padding:10px 20px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    color: #fff;
+}
+.getintouch .section2 .item3 textarea{
+    width: 95%;
+    height: 100px;
+    background-color: transparent;
+    padding:10px 20px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    color: #fff;
+}
+
+.btn_ button{
+    margin: 10px 20px;
+    background-color: #39a583;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.btn_ button:hover{
+  background-color: #fff;
+  color:#39a583;
+}
