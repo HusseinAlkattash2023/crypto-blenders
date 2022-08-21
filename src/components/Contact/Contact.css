@@ -1,0 +1,175 @@
+.contact{
+    padding:60px 80px;
+    margin: 0px auto;
+    background-color: #0d182e;
+    overflow-x:hidden;
+    text-align: center;
+}
+.contact .headerContact h3{
+    color:#fff;
+    font-size:40px;
+    font-weight:800; 
+    margin-bottom:50px;
+}
+
+.contact .headerContact h3:after{
+    content:"";
+    display:block;
+    background-color:#39a583;
+    width:200px;
+    height:5px;
+    margin:5px auto 20px auto;
+    border-radius: 10px;    
+}
+
+.contact .getintouch{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin:50px auto;
+}
+.getintouch .section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 10px;
+    width: 50%;
+    margin-right: 30px;
+}
+
+.getintouch .section1 .img1{
+    width:500px; 
+    position: relative;
+    right: 110px;
+}
+.getintouch .section1 .img2{
+    height: 400px;
+    position: relative;
+    left: 110px;
+    z-index: 10;
+    animation:topBounce 4s ease-in-out infinite;
+}
+@keyframes topBounce{
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(25px);
+    }
+}
+
+.getintouch .section2{
+    background-color: #11213b;
+    text-align: left;
+    padding: 30px;
+    border-radius:10px;
+}
+.getintouch .section2 h4{
+    margin: 0px 0px 20px 20px;
+     color:#fff;
+}
+.getintouch .section2 .item1{
+    display: flex;
+}
+.getintouch .section2 .item1 , 
+.getintouch .section2 .item2 ,
+.getintouch .section2 .item3 
+{
+    margin: 20px auto;
+}
+.getintouch .section2 .item1 input,
+.getintouch .section2 .item2 input,
+.getintouch .section2 .item3 textarea
+{
+    margin: 0px 10px;
+    border:none;
+    border-radius:30px;
+    padding:10px 20px;
+    background-color:transparent;
+    border:1px solid gray;
+    color:#fff;
+}
+.getintouch .section2 .item1 input{
+    width: 50%;
+}
+.getintouch .section2 .item2 input{
+    width: 96%;
+    
+}
+.getintouch .section2 .item3 textarea{
+    width: 96%;
+    height:150px;
+}
+.submit{
+    background-color:#39a583;
+    border: none;
+    margin-left: 20px;
+    color:#fff;
+    border-radius: 30px;
+    padding: 8px 10px;
+    width:100px;
+    cursor:pointer;
+    transition: all 0.5s ease;
+}
+.submit:hover{
+    background-color: #fff;
+    color:#39a583;
+    letter-spacing:1px;
+    font-weight:600;
+}
+
+@media(max-width:1000px){
+    .contact .getintouch{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .getintouch .section1{
+        margin: 10px auto 30px auto;
+    }
+}
+
+@media(max-width:680px){
+    .getintouch .section1 .img1{
+        width:400px;
+    }
+    .getintouch .section1 .img2{
+        height: 350px;
+    }
+}
+
+@media(max-width:560px){
+    .getintouch .section2 h4{
+        margin: 0px 0px 0px 20px;
+        color:#fff;
+    }
+    .getintouch .section2 .item1{
+        display: flex;
+        flex-direction: column;
+    }
+    .getintouch .section2 .item1 input{
+        width: 96%;
+        margin: 20px 0px 0px 10px;
+    }
+    .contact{
+        padding: 60px 40px;
+    }
+}
+
+@media(max-width:480px){
+    
+    .getintouch .section1 .img1{
+        width:350px;
+    }
+    .getintouch .section1 .img2{
+        height: 300px;
+        position: relative;
+        left: 110px;
+    }
+    .contact .headerContact h3{
+        font-size: 30px;
+        font-weight: 600;
+    }
+}

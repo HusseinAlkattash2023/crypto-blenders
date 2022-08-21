@@ -1,0 +1,129 @@
+.team{
+    margin: 0px auto;
+    padding : 50px;
+    background-image: url('../../assests/cost-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+.team::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #0d182e;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.card_{
+    background-color: #0d182e;
+    /* box-shadow: #39a583 0px 0px 10px; */
+    /* width: 20%; */
+    height: 320px;
+    width: 360px;
+    margin:20px auto;
+    padding: 20px 10px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 10000;
+    transition: all 0.5s ease;
+}
+.card_ p{
+    text-transform: uppercase;
+}
+.card_::after{
+    content: "";
+    width: 100%;
+    height: 40%;
+    display: block;
+    background-color: #39a583 ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 10px;
+}
+.team h2{
+    position: relative;
+    z-index: 200;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    text-transform:uppercase;
+}
+.team h2::after{
+    content: "";
+    display: block;
+    background-color: #39a583;
+    height: 5px;
+    width: 100px;
+    margin: 10px auto;
+    border-radius: 6px;
+}
+.card_ img{
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+.card_  h3{
+    color:#39a583;
+}
+
+.cards{
+    margin: auto;
+}
+
+.card_:hover.card_ img{
+    transform: scale(1.1);
+}
+
+.card_ .social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.6s ease;
+    z-index: 444;
+    text-align:center;
+    margin:5px auto;
+}
+.card_:hover.card_ .social{
+    opacity: 1;
+    visibility: visible;
+} 
+.card_ .social a{
+    color: white;
+    background-color: #39a583;
+    width: 36px;
+    height: 36px;
+    line-height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: all 0.6s ease;
+}
+.card_ .social a:hover{
+    background-color: white;
+    color: #39a583;
+}
+
+
+
+.card1 .social{
+    display: none;
+}
+
+@media(max-width:500px){
+    .team h2{
+        color:#fff;
+        font-size: 30px;
+        letter-spacing: 0px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        position: relative;
+    }
+}
